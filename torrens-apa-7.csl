@@ -2216,8 +2216,10 @@
     <layout delimiter="; " prefix="(" suffix=")">
       <group delimiter=", ">
         <text macro="author-short"/>
-        <text macro="date-short"/>
-        <text macro="label-locator"/>
+        <group delimiter=", ">
+          <text macro="date-short"/>
+          <text macro="label-locator"/>
+        </group>
       </group>
     </layout>
   </citation>
